@@ -316,7 +316,10 @@ let g:vimtex_view_general_options
 let g:vimtex_quickfix_mode=0
 set conceallevel=2
 let g:tex_conceal='abdmg'
+
+"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " *** Ultisnips *** "
+let g:UltiSnipsSnippetStorageDirectoryForUltiSnipsEdit = 'C:\Users\zhaor\AppData\Local\nvim\plugged\ultisnips\UltiSnips\'  
 let g:UltiSnipsExpandTrigger = '<tab>'
 let g:UltiSnipsJumpForwardTrigger = '<tab>'
 let g:UltiSnipsJumpBackwardTrigger = '<s-tab>'
