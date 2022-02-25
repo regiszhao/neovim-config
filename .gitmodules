@@ -1,0 +1,60 @@
+[submodule "plugged/bufferline.nvim"]
+	path = plugged/bufferline.nvim
+	url = https://github.com/akinsho/bufferline.nvim.git
+[submodule "plugged/coc.nvim"]
+	path = plugged/coc.nvim
+	url = https://github.com/neoclide/coc.nvim.git
+[submodule "plugged/dashboard-nvim"]
+	path = plugged/dashboard-nvim
+	url = https://github.com/glepnir/dashboard-nvim.git
+[submodule "plugged/fzf.vim"]
+	path = plugged/fzf.vim
+	url = https://github.com/junegunn/fzf.vim.git
+[submodule "plugged/fzf"]
+	path = plugged/fzf
+	url = https://github.com/junegunn/fzf.git
+[submodule "plugged/galaxyline.nvim"]
+	path = plugged/galaxyline.nvim
+	url = https://github.com/NTBBloodbath/galaxyline.nvim.git
+[submodule "plugged/gruvbox"]
+	path = plugged/gruvbox
+	url = https://github.com/morhetz/gruvbox.git
+[submodule "plugged/kanagawa.nvim"]
+	path = plugged/kanagawa.nvim
+	url = https://github.com/rebelot/kanagawa.nvim.git
+[submodule "plugged/nerdcommenter"]
+	path = plugged/nerdcommenter
+	url = https://github.com/preservim/nerdcommenter.git
+[submodule "plugged/nvim-tree.lua"]
+	path = plugged/nvim-tree.lua
+	url = https://github.com/kyazdani42/nvim-tree.lua.git
+[submodule "plugged/nvim-web-devicons"]
+	path = plugged/nvim-web-devicons
+	url = https://github.com/kyazdani42/nvim-web-devicons.git
+[submodule "plugged/onedark.vim"]
+	path = plugged/onedark.vim
+	url = https://github.com/joshdick/onedark.vim.git
+[submodule "plugged/spaceline.vim"]
+	path = plugged/spaceline.vim
+	url = https://github.com/glepnir/spaceline.vim.git
+[submodule "plugged/ultisnips"]
+	path = plugged/ultisnips
+	url = https://github.com/SirVer/ultisnips.git
+[submodule "plugged/vim-airline-themes"]
+	path = plugged/vim-airline-themes
+	url = https://github.com/vim-airline/vim-airline-themes.git
+[submodule "plugged/vim-airline"]
+	path = plugged/vim-airline
+	url = https://github.com/vim-airline/vim-airline.git
+[submodule "plugged/vim-bbye"]
+	path = plugged/vim-bbye
+	url = https://github.com/moll/vim-bbye.git
+[submodule "plugged/vim-devicons"]
+	path = plugged/vim-devicons
+	url = https://github.com/ryanoasis/vim-devicons.git
+[submodule "plugged/vim"]
+	path = plugged/vim
+	url = https://github.com/dracula/vim.git
+[submodule "plugged/vimtex"]
+	path = plugged/vimtex
+	url = https://github.com/lervag/vimtex.git
