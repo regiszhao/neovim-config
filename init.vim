@@ -313,6 +313,7 @@ let g:vimtex_view_method = 'general'
 let g:vimtex_view_general_viewer = 'SumatraPDF'
 let g:vimtex_view_general_options
     \ = '-reuse-instance -forward-search @tex @line @pdf'
+let g:vimtex_compiler_latexmk = {'build_dir': 'out'}
 let g:vimtex_quickfix_mode=0
 set conceallevel=2
 let g:tex_conceal='abdmg'
