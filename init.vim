@@ -49,6 +49,9 @@ let mapleader = ","
 " Fast saving
 nmap <leader>w :w!<cr>
 
+" Enable use of mouse in vim
+set mouse=a
+
 " :W sudo saves the file
 " (useful for handling the permission-denied error)
 command! W execute 'w !sudo tee % > /dev/null' <bar> edit!
@@ -351,6 +354,20 @@ let g:dashboard_custom_header =<< trim END
 \   _-'                                                                `-_   /
  `''                                                                      ``'
 END
+
+"let g:dashboard_custom_header =<< trim END
+"REGIS
+"END
+
+
+"let g:dashboard_custom_header =<< trim END
+"d88888b .88b  d88. d888888b db      db    db d8b   db  d888b   .d88b.   .d88b.  db    db d88888b d8b   db 
+"88'     88'YbdP`88   `88'   88      `8b  d8' 888o  88 88' Y8b .8P  Y8. .8P  Y8. `8b  d8' 88'     888o  88 
+"88ooooo 88  88  88    88    88       `8bd8'  88V8o 88 88      88    88 88    88  `8bd8'  88ooooo 88V8o 88 
+"88~~~~~ 88  88  88    88    88         88    88 V8o88 88  ooo 88    88 88    88    88    88~~~~~ 88 V8o88 
+"88.     88  88  88   .88.   88booo.    88    88  V888 88. ~8~ `8b  d8' `8b  d8'    88    88.     88  V888 
+"Y88888P YP  YP  YP Y888888P Y88888P    YP    VP   V8P  Y888P   `Y88P'   `Y88P'     YP    Y88888P VP   V8P
+"END
 
 
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
@@ -688,8 +705,8 @@ catch
 endtry
 " colorscheme gruvbox
 " colorscheme dracula
-colorscheme kanagawa
-" colorscheme onedark
+" colorscheme kanagawa
+colorscheme onedark
 " set background=dark
 
 " Set extra options when running in GUI mode
