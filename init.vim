@@ -81,10 +81,10 @@ Plug 'kyazdani42/nvim-web-devicons'
 " Plug 'wfxr/minimap.vim'
 
 " Themes --------------------------------
-Plug 'morhetz/gruvbox'
-Plug 'dracula/vim'
+"Plug 'morhetz/gruvbox'
+"Plug 'dracula/vim'
 Plug 'rebelot/kanagawa.nvim'
-Plug 'joshdick/onedark.vim'
+"Plug 'joshdick/onedark.vim'
 
 " Status/Tabline/Bufferline ------------------------
 " Plug 'glepnir/spaceline.vim'
@@ -117,7 +117,7 @@ set hidden
 set nowritebackup
 
 " Having longer updatetime (default is 4000 ms = 4 s) leads to noticeable delays and poor user experience.
-set updatetime=300
+set updatetime=100
 
 " Don't pass messages to |ins-completion-menu|.
 set shortmess+=c
@@ -705,8 +705,8 @@ catch
 endtry
 " colorscheme gruvbox
 " colorscheme dracula
-" colorscheme kanagawa
-colorscheme onedark
+ colorscheme kanagawa
+"colorscheme onedark
 " set background=dark
 
 " Set extra options when running in GUI mode
